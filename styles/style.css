@@ -126,7 +126,7 @@ ol {
 }
 
 .title {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -147,7 +147,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
@@ -157,13 +157,14 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 200px;
 }
 
 .content__video-card-description {
   margin-top: 6px;
 }
 
-fieldset {
+.search-form__fieldset {
   border: none;
 }
 
@@ -189,6 +190,9 @@ fieldset {
   width: 20px;
   height: 20px;
   border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-form__checkbox-list {
@@ -221,9 +225,8 @@ button {
 }
 
 .more-button {
-  width: 399px;
+  width: 395px;
   height: 34px;
-  align-self: end;
   margin: 2px;
 }
 
@@ -251,7 +254,6 @@ button {
   background-color: #fff;
   inline-size: 16px;
   block-size: 16px;
-  margin: 1px 1px 1px 1px;
 }
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {

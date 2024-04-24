@@ -207,7 +207,7 @@ ol {
   align-items: center;
 }
 
-button {
+.button {
   background-color: transparent;
   border: 1px solid #ffffff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -228,6 +228,7 @@ button {
   width: 395px;
   height: 34px;
   margin: 2px;
+  align-self: flex-end;
 }
 
 .search-form__textfield:focus {
